@@ -7,7 +7,7 @@ function App() {
   return (
  
       <div className="fixed flex justify-center z-50 top-0 left-0 w-full  p-4">
-        <nav className=" bg-gray-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20  border border-gray-400 flex justify-center">
+        <nav className=" bg-yellow-600 text-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20  border border-gray-400 flex justify-center">
           <div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
             <div className="flex space-x-4">
               <div>
@@ -29,20 +29,20 @@ function App() {
                       d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
                     />
                   </svg>
-                  <span className="font-bold">Brand Name</span>
+                  <span className="font-bold text-white">Brand Name</span>
                 </a>
               </div>
 
               <div className="hidden md:flex items-center space-x-1">
                 <a
                   href="#"
-                  className="py-5 px-3 text-gray-700 hover:text-gray-900"
+                  className="py-5 px-3 "
                 >
                   Features
                 </a>
                 <a
                   href="#"
-                  className="py-5 px-3 text-gray-700 hover:text-gray-900"
+                  className="py-5 px-3 "
                 >
                   Pricing
                 </a>
@@ -57,7 +57,7 @@ function App() {
               </a>
               <a
                 href=""
-                className="py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300"
+                className="text-white py-2 px-3 bg-yellow-400 hover:bg-yellow-300  rounded transition duration-300"
               >
                 Signup
               </a>
