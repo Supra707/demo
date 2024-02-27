@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App_bottom from './App_bottom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+  </React.StrictMode>
+);
+const root_bottom = ReactDOM.createRoot(document.getElementById('bottom'));
+root_bottom.render(
+  <React.StrictMode>
+    <App_bottom />
   </React.StrictMode>
 );
 
